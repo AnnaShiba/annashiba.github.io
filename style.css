@@ -406,3 +406,11 @@ download:focus {
     text-decoration: none;
     cursor: pointer;
 } 
+
+#exp {
+    color:#35b9bb;
+}
+
+#pro {
+    color:#043937
+}

@@ -1,0 +1,408 @@
+/* Global reset for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for header section */
+header {
+    margin: 1.5em 1.5em 0em 1.5em;
+}
+
+header h1 {
+    float: right;
+    color: white;
+}
+
+/* Styling for all h1 elements */
+h1 {
+    top: 0;
+    font-size: 2vmax;
+    color: white;
+}
+
+h2 {
+    top: 0;
+    font-size: 1vmax;
+    font-family: 'Quantico', sans-serif;
+    color: white;
+}
+
+.tabtitle {
+    color:#c6eff0;
+    font-size: 1.2em;
+}
+
+#features h3 {
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+}
+
+h3 {
+    color: #014546;
+    text-align: center;
+}
+
+h3:hover {
+    color: white;
+}
+
+/* Styling for paragraphs */
+p {
+    font-family: 'Quantico', sans-serif;
+
+}
+
+#intro {
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Styling for the entire body */
+body {
+    background-image: linear-gradient(to bottom right, #62d8edfe, #016668, #014546);
+    font-family: 'Quantico', sans-serif;
+}
+
+/* Styling for main content section */
+main {
+    height: 50vh;
+}
+
+
+figure {
+    margin: 1em;
+}
+
+/* Styling for footer section */
+footer {
+    flex-basis: 100%;
+    margin: 2em;
+    font-family: 'Quantico', sans-serif;
+    font-size: .9em;
+    color: rgb(227, 233, 238);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column !important;
+    background-color:#014546;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+}
+
+.bio {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 4em;
+    max-width: 50%;
+}
+
+#bio {
+    margin: 1em;
+    margin-left: 2em;
+}
+
+canvas {
+    display: block;
+    position: inherit;
+}
+
+
+/* Hover effect for anchor tags */
+a:hover {
+    color: #014546;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.skill-section {
+    display: grid;
+    justify-content: center;
+    padding: 2em;
+}
+
+#resume {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillbox {
+    margin: 2em;
+}
+
+#about {
+    background-color: #35b9bb;
+    color: #014546;
+}
+
+#skills {
+    background-color:#016668;
+}
+
+#education {
+    background-color: #35b9bb;
+}
+
+.choice {
+    display: grid;
+    justify-content: center;
+    background-color: #043937;
+    height: 60vh;
+}
+
+.choice >h2{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.image-btn{
+    background: none;
+    border: none;
+    padding: 1.6em;
+    cursor: pointer;
+}
+
+.image-btn img{
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-btn:hover,
+.image-btn:focus{
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    transform: scale(1.4);
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.container {
+    position: relative;
+    width: 30vw;
+    max-width: 42vh;
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: 8px;
+}
+
+/* Overlay container */
+.overlay-container {
+    position: relative;
+}
+
+#portrait img{
+    width: 30vw;
+    max-width: 42vh;
+    border-radius:50%;
+}
+
+
+/* Styles for the navigation bar */
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: end;
+    font-family: 'Quantico', sans-serif;
+}
+
+nav >img {
+    margin: 1em;
+    border-radius: 8px;
+}
+
+#nav_menu ul li {
+    float: left;
+}
+
+/* Styles for navigation menu links */
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 10em;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #35b9bb;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px
+}
+
+#nav_menu ul li a:hover,
+#nav_menu ul li a:focus {
+    background-color: #41e4e7;
+}
+
+#nav_menu ul li a.current {
+    background-color: #014546;
+}
+
+#nav_menu ul {
+    list-style: none;
+    position: relative;
+}
+
+#nav_menu >h2 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 4em;
+}
+
+.media {
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.media:hover {
+    opacity: 0.2;
+}
+
+/* Styling for smooth changes one image to another */
+.variants {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    transition: 0.5s ease;
+    background-color: #008CBA;
+}
+
+.variants:hover {
+    opacity: 0;
+}
+
+/* Styles for a flex container with centered content */
+.box {
+    padding: 5em;
+    margin: 5vh auto 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/* Styling for individual items */
+.item {
+    background-color: #35b9bb;
+    margin: 1em;
+    padding: 3em;
+    color: #014546;
+    max-width: 20em;
+    border-radius: 10px;
+}
+
+/* Aligns images relative to an unordered list to the flex-end */
+img~ul{
+    align-self: flex-end;
+
+}
+
+/* Styles make a smooth transform effect for product image */
+.utility_pic{
+    margin: 1em;
+    border-radius: 8px;
+    transition: transform .2s;
+}
+
+/* Scales utility pictures on hover */
+.utility_pic:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+ul {
+    margin: 1em;
+    color: white;
+}
+
+
+hr {
+    height: 2px;
+    border-width: 0;
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+iframe{
+    border-radius: 5px;
+}
+
+.social{
+    margin-left: 46%;
+}
+
+#red {
+    color: rgb(176, 11, 11);
+}
+#blue {
+    color: #079dcf;
+}
+    
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+    background-color:#35b9bb;
+    margin: 15% auto;
+    padding: 1em;
+    border: 1px solid #1c6b6c;
+    width: 30%; 
+    border-radius: 8px;
+}
+
+/* The Close Button */
+.close {
+    color: #014546;
+    float:inline-end;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#download:hover,
+download:focus {
+    color:#014546;
+    text-decoration: none;
+    cursor: pointer;
+} 

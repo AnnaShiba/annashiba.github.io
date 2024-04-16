@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Anna Portfolio</title>
+    <meta name="author" content="Anna Shibanova">
+    <meta name="description" content="Anna Portfolio">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="nav_menu">
+            <div>
+                <h1>Anna Shibanova</h1>
+            </div>
+            <!-- Navigation links -->
+            <ul>
+                <li><a href="index.html">Bio</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="skills.html" class="current">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="choice">
+        <h2>You only can choose once!</h2>
+        <h3 id="red">Only the Chosen One can withstand the truth!</h3>
+        <p id="red">Once you see, you can't unsee!</p>
+        <h3 id="blue">It's better to remain in the illusion of average.</h3>
+        <p id="blue">Back to the usual safe normality.</p>
+
+
+        <img src="img/morpheus.jpg" alt="morpheus" width="400">
+        <div class="hands">
+            <a href="red.html"><button id="redButton" class="image-btn">
+                    <img src="img/red.jpg" width="150">
+                </button></a>
+            <a href="blue.html"><button id="blueButton" class="image-btn">
+                    <img src="img/blue.jpg" width="150"></a>
+            </button>
+        </div>
+    </div>
+    <a href="resume.html">
+        <canvas id="matrixCanvas"></canvas>
+    </a>
+    <!-- Custom Popup Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modalText">Some text in the Modal...</p>
+        </div>
+    </div>
+    <footer>
+        <address>
+            <p>Contact me: <a href="mailto:anna.shibanova@georgebrown.ca">anna.shibanova@georgebrown.ca</a></p>
+            <p><a href="https://www.linkedin.com/in/anna-sh/">© 2024 Anna Shibanova.</a> George Brown College.</p>
+            <p>Toronto, ON, Canada</p>
+        </address>
+        <div>
+            <a href="https://github.com/AnnaShiba" class="media">
+                <img alt="githublogo" src="img/github.png" width="64">
+            </a>
+            <a href="https://www.linkedin.com/in/anna-sh/" class="media">
+                <img alt="linkedinlogo" src="img/linkedin.png" width="64">
+            </a>
+        </div>
+    </footer>
+
+    <script src="choice.js"></script>
+</body>
+
+</html>

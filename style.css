@@ -356,9 +356,11 @@ iframe{
 
 #red {
     color: rgb(176, 11, 11);
+    text-align: center;
 }
 #blue {
     color: #079dcf;
+    text-align: center;
 }
     
 /* The Modal (background) */

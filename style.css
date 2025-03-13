@@ -24,7 +24,7 @@ h1 {
 
 h2 {
     top: 0;
-    font-size: 1vmax;
+    font-size: 2em;
     font-family: 'Quantico', sans-serif;
     color: white;
 }
@@ -67,7 +67,8 @@ body {
 
 /* Styling for main content section */
 main {
-    height: 50vh;
+    margin: 1em;
+    padding: 2em;
 }
 
 
@@ -88,7 +89,7 @@ footer {
     display: flex;
     flex-direction: column !important;
     background-color:#014546;
-    flex-direction:row-reverse;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
 }
 
@@ -96,12 +97,24 @@ footer {
     color: white;
     font-size: 1.5em;
     margin-left: 4em;
-    max-width: 50%;
+}
+
+.philosophy {
+    color: #35b9bb;
+    font-size: 1.5em;
+    margin-left: 4em;    
 }
 
 #bio {
     margin: 1em;
     margin-left: 2em;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em;
 }
 
 canvas {
@@ -323,6 +336,14 @@ img~ul{
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
     transform: scale(1.5);
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+/* Scales utility pictures on hover */
+.utility_pic1:hover{
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    transform: scale(3);
     -o-transition: all 0.2s;
     transition: all 0.2s;
 }

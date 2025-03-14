@@ -171,7 +171,7 @@ a {
     display: grid;
     justify-content: center;
     background-color: #043937;
-    height: 60vh;
+    height: max 60vh;
 }
 
 .choice >h2{
